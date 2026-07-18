@@ -1,0 +1,9 @@
+flask
+openai-whisper
+sentence-transformers
+pandas
+joblib
+scikit-learn
+google-genai
+numpy
+python-dotenv
