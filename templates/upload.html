@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Upload Videos</title>
+
+<style>
+
+body{
+
+    background:#f4f6f9;
+    font-family:Arial;
+}
+
+.container{
+
+    width:60%;
+    margin:80px auto;
+    text-align:center;
+
+}
+
+h1{
+
+    color:#1f4e79;
+
+}
+
+input{
+
+    margin-top:30px;
+    font-size:18px;
+
+}
+
+button{
+
+    margin-top:30px;
+    padding:12px 35px;
+
+    background:#007BFF;
+    color:white;
+
+    border:none;
+
+    border-radius:6px;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+}
+
+button:hover{
+
+    background:#0056b3;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Upload Lecture Videos</h1>
+
+<form action="/upload" method="POST" enctype="multipart/form-data">
+
+    <input
+        type="file"
+        name="videos"
+        multiple
+        accept=".mp4">
+
+    <br><br>
+
+    <button type="submit">
+        Upload
+    </button>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
